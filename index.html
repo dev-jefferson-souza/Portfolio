@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+  <title>Who is Jeff?</title>
+</head>
+<!--User Story #1: My portfolio should have a welcome section with an id of welcome-section.
+
+User Story #2: The welcome section should have an h1 element that contains text.
+
+User Story #3: My portfolio should have a projects section with an id of projects.
+
+User Story #4: The projects section should contain at least one element with a class of project-tile to hold a project.
+
+User Story #5: The projects section should contain at least one link to a project.
+
+User Story #6: My portfolio should have a navbar with an id of navbar.
+
+User Story #7: The navbar should contain at least one link that I can click on to navigate to different sections of the page.
+
+User Story #8: My portfolio should have a link with an id of profile-link, which opens my GitHub or FCC profile in a new tab.
+
+User Story #9: My portfolio should have at least one media query.
+
+User Story #10: The height of the welcome section should be equal to the height of the viewport.
+
+User Story #11: The navbar should always be at the top of the viewport.-->
+<body>
+  <header>
+    <img id="logo-7k" src="./assets/logo-7k.png" alt="Logo">
+    <nav id="nav-header">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+    <!--WELCOME ================================================================-->
+  <div class="gray-container">
+    <section class="container" id="welcome-section">
+      <h1>Always hunting new ideas</h1>
+      <h3>The greatest power a person can have is creativity. With it you can build unimaginable things. <br></h3>
+      <div id="images-group-1">
+        <img class="first-group-images" id="flower" src="./assets/horizontal-flower.jpg" alt="">
+        <img class="first-group-images" src="./assets/street.jpg" alt="">
+        <img class="first-group-images" src="./assets/ant.jpg" alt="">
+        <img class="first-group-images" src="./assets/spider.jpg" alt="">
+        <img class="first-group-images" src="./assets/road.jpg" alt="">
+      </div>  
+      <figcaption>Those pictures where taken by me, using a mobile phone.</figcaption>
+  </div>
+  </section>
+
+  <!--ABOUT ================================================================-->
+  <section class="container" id="about">
+    <h2>So... Hi?</h2>
+      <p>My name is Jeff, I'm a 19 years old Brazilian and I started to get interested in creating something a few years ago when I started taking some pictures with my cell phone. After some time I started writing songs and poetry and I discovered that I was <strong>born to create</strong>.</p>
+      <div id="jeff-group">
+        <img id="jeff-picture" src="./assets/jeff.jpg" alt="">
+        <h4>Jefferson Souza</h4>
+      </div>
+      <p>I've always been interested in technology, and in late 2021 I decided to become a self-taught programmer. The possibility of creating unimaginable things fascinated me, since then I have been studying programming.</p>
+  </section>
+
+    <!--PROJECTS ================================================================-->
+  <div class="gray-container">
+    <section class="container" id="projects">
+      <h2>Here are some of my projects</h2>
+      <div id="project-flex">
+        <div class="card">
+          <img class="card-image" src="./assets/project-1.png" alt="">
+          <h5>Landing page made to present a restaurant</h5>
+          <button><a target="_blank" href="https://bad7k.github.io/Restaurant-webpage---First-project/">View Project</a></button>
+        </div>
+
+        <div class="card">
+          <img class="card-image" src="./assets/project-2.png" alt="">
+          <h5>Landing page with an embed video, and form</h5>
+          <button><a target="_blank" href="https://bad7k.github.io/Coffee-Landing-Page/">View Project</a></button>
+        </div>
+
+        <div class="card">
+          <img class="card-image" src="./assets/project-3.png" alt="">
+          <h5>Documentation about</h5>
+          <button><a target="_blank" href="https://bad7k.github.io/Flexbox-Technical-Documentation/">View Project</a></button>
+        </div>
+
+        <div class="card">
+          <img class="card-image" src="./assets/project-4.png" alt="">
+          <h5>Tiradent's tribute page</h5>
+          <button><a target="_blank" href="https://bad7k.github.io/Tribute-page-Tiradentes/">View Project</a></button>
+        </div>
+
+        <div class="card">
+          <img class="card-image" src="./assets/project-5.png" alt="">
+          <h5>Google's survey page</h5>
+          <button><a target="_blank" href="https://bad7k.github.io/Google-s-Survey-Form/">View Project</a></button>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
