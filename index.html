@@ -6,71 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./assets/logos/logo-7k - Copy.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
 
   <title>Who is Jeff?</title>
 </head>
-<!--User Story #1: My portfolio should have a welcome section with an id of welcome-section.
 
-User Story #2: The welcome section should have an h1 element that contains text.
-
-User Story #3: My portfolio should have a projects section with an id of projects.
-
-User Story #4: The projects section should contain at least one element with a class of project-tile to hold a project.
-
-User Story #5: The projects section should contain at least one link to a project.
-
-User Story #6: My portfolio should have a navbar with an id of navbar.
-
-User Story #7: The navbar should contain at least one link that I can click on to navigate to different sections of the page.
-
-User Story #8: My portfolio should have a link with an id of profile-link, which opens my GitHub or FCC profile in a new tab.
-
-User Story #9: My portfolio should have at least one media query.
-
-User Story #10: The height of the welcome section should be equal to the height of the viewport.
-
-User Story #11: The navbar should always be at the top of the viewport.-->
 <body>
   <header>
-    <img id="logo-7k" src="./assets/logo-7k.png" alt="Logo">
-    <nav id="nav-header">
+    <a href="#">  <img id="logo-7k" src="./assets/logos/logo-7k.png" alt="Logo"></a>
+    <nav id="navbar">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
-      <a href="#">Contact</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-    <!--WELCOME ================================================================-->
+    <!--welcome =======================================================-->
   <div class="gray-container">
     <section class="container" id="welcome-section">
-      <h1>Always hunting new ideas</h1>
+      <h1>Always hunting for new ideas</h1>
       <h3>The greatest power a person can have is creativity. With it you can build unimaginable things. <br></h3>
       <div id="images-group-1">
-        <img class="first-group-images" id="flower" src="./assets/horizontal-flower.jpg" alt="">
-        <img class="first-group-images" src="./assets/street.jpg" alt="">
-        <img class="first-group-images" src="./assets/ant.jpg" alt="">
-        <img class="first-group-images" src="./assets/spider.jpg" alt="">
-        <img class="first-group-images" src="./assets/road.jpg" alt="">
+        <img class="first-group-images" id="flower" src="./assets/horizontal-flower.jpg" alt="A green herb with a black background.">
+        <img class="first-group-images" src="./assets/street.jpg" alt="A street at dusk, in the foreground we have a car blurred due to its movement and in the background we can see a gas station.">
+        <img class="first-group-images" src="./assets/ant.jpg" alt="Ants walking on the leaf of a tree branch.">
+        <img class="first-group-images" src="./assets/spider.jpg" alt="Spider in its web, in the background we can see a black background.">
+        <img class="first-group-images" src="./assets/road.jpg" alt="Road in a rural area, in the foreground we can see a blue truck driving on the track and in the background some hills with green vegetation. The sky is partially cloudy.">
       </div>  
-      <figcaption>Those pictures where taken by me, using a mobile phone.</figcaption>
+      <figcaption>These pictures where taken by me, using a cellphone.</figcaption>
   </div>
   </section>
 
-  <!--ABOUT ================================================================-->
+  <!--about ===========================================================-->
   <section class="container" id="about">
     <h2>So... Hi?</h2>
       <p>My name is Jeff, I'm a 19 years old Brazilian and I started to get interested in creating something a few years ago when I started taking some pictures with my cell phone. After some time I started writing songs and poetry and I discovered that I was <strong>born to create</strong>.</p>
       <div id="jeff-group">
-        <img id="jeff-picture" src="./assets/jeff.jpg" alt="">
+        <img id="jeff-picture" src="./assets/jeff.jpg" alt="Portrait of Jefferson with short curly hair on a sunny day, there is greenery and trees in the background.">
         <h4>Jefferson Souza</h4>
       </div>
       <p>I've always been interested in technology, and in late 2021 I decided to become a self-taught programmer. The possibility of creating unimaginable things fascinated me, since then I have been studying programming.</p>
   </section>
 
-    <!--PROJECTS ================================================================-->
+    <!--projects ======================================================-->
   <div class="gray-container">
     <section class="container" id="projects">
       <h2>Here are some of my projects</h2>
@@ -89,7 +70,7 @@ User Story #11: The navbar should always be at the top of the viewport.-->
 
         <div class="card">
           <img class="card-image" src="./assets/project-3.png" alt="">
-          <h5>Documentation about</h5>
+          <h5>Documentation about flexbox</h5>
           <button><a target="_blank" href="https://bad7k.github.io/Flexbox-Technical-Documentation/">View Project</a></button>
         </div>
 
@@ -107,5 +88,41 @@ User Story #11: The navbar should always be at the top of the viewport.-->
       </div>
     </section>
   </div>
+
+  <!--contact========================================================-->
+  <section class="container white-container" id="contact">
+    <h2>Do you want to talk to me?</h2>
+    <p>You can easily find me on social media below.</p>
+    <span id="arrows"></span>
+    <div id="social-media">
+      <div class="social-media-card">
+        <img class="cards-logo" src="./assets/logos/logo-github.png" alt="GitHub logo">
+        <h5> GitHub</h5>
+        <p>Here you can see the projects I'm working on.</p>
+        <button class="button-social"> <a href="https://github.com/bad7k" target="blank">Go to GitHub</a></button>
+      </div>
+
+      <div class="social-media-card">
+        <img class="cards-logo" src="./assets/logos/logo-instagram.png" alt="Instagram logo">
+        <h5> Instagram</h5>
+        <p>Want to see one of my photos?</p>
+        <button class="button-social"> <a href="#" target="blank">Go to Instagram</a></button>
+      </div>
+
+       <div id="last-social-media-card" class="social-media-card">
+        <img class="cards-logo" src="./assets/logos/logo-linkedin.png" alt="Linkedin logo">
+        <h5> Linkedin</h5>
+        <p>And here you can check my network for professional matters.</p>
+        <button class="button-social"> <a href="https://www.linkedin.com/in/jefferson-souza-33194422a/" target="blank">Go to Linkedin</a></button>
+      </div>
+    </div>
+  </section>
+
+  <!--footer===========================================================-->
+  <footer>
+    <h6>ALL Rigths Reserved &copy <br>
+      2022
+    </h6>
+  </footer>
 </body>
 </html>
