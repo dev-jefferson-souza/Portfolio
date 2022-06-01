@@ -337,6 +337,10 @@ button:hover{
   height: 300px;
   margin: 8px auto;
 }
+.social-media-card p{
+  text-align: center;
+  width: 100%;
+}
 .cards-logo{
   filter: drop-shadow(1px 1px 2px var(--green));
 
